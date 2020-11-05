@@ -2925,16 +2925,29 @@ html {
     margin-left: auto !important; } }
 
 .Tipo-uno {
-  background-image: url(bg-signup.jpg); }
+  background-image: url(assets/img/bg-signup.jpg); }
 
 .Tipo-dos {
-  background-image: url(Logomilan2.jpeg); }
+  background-image: url(assets/img/Logomilan2.jpeg); }
 
 .Tipo-tres {
-  background-image: url(Tablafiambre.jpeg); }
+  background-image: url(assets/img/Tablafiambre.jpeg); }
 
+
+@media (min-width: 130px) and (max-width: 9999px) {
 .carouselcliente {
+  align-items: center;
   padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("https://image.freepik.com/foto-gratis/fondo-tablas-madera-oscura_23-2148318687.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+}
+
+.carouselcliente1 {
+  padding-top: 15%;
+  padding-bottom: 15%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("https://image.freepik.com/foto-gratis/fondo-tablas-madera-oscura_23-2148318687.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -2942,8 +2955,23 @@ html {
   background-size: cover; }
 
 .containercarousel {
-  width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+
+  .ImagenLogo{
+  width: 40%;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+  }
+
+  .backmadera{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("https://image.freepik.com/foto-gratis/fondo-tablas-madera-oscura_23-2148318687.jpg");
+    padding: 15%
+
+  }
+
